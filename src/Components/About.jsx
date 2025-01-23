@@ -14,13 +14,13 @@ const About = ({darkmodeon}) => {
          initial={{x:-20,opacity:0}}
          whileInView={{x:1,opacity:1}}
          transition={{duration:0.9,delay:0.6}}
-         className='text-3xl md:text-5xl'>About me</motion.h1>
+         className='text-2xl md:text-4xl'>About me</motion.h1>
        <div className='items-center justify-center  flex h-full flex-col'>
        <motion.p
         initial={{x:-20,opacity:0}}
         whileInView={{x:1,opacity:1}}
         transition={{duration:0.9,delay:0.6}}
-        className='md:text-xl md:max-w-[40%] max-sm:hidden font-mono text-lg mb-8' > I am  Frontend Devloper .thoughout my career,I have the privilages of collerborating with prestigious organzations,contributing their success and grouth.
+        className='md:max-w-[40%] max-sm:hidden md:text-base font-mono text-sm mb-8' > I am  Frontend Devloper .thoughout my career,I have the privilages of collerborating with prestigious organzations,contributing their success and grouth.
         </motion.p>
 
         <div className= ' flex w-fit max-sm:w-full max-sm:flex-col md:gap-7 '>
